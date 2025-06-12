@@ -15,6 +15,7 @@ A full stack blog platform with authentication and CRUD functionality.
 - Blogs stored securely in MongoDB
 - RESTful API structure
 
-## 🌐 Live App
-- [Replit URL here](https://replit.com/@Nancy79/my-blog-api)
+## 🌐 Live App  
+[Click here to open the hosted app](https://2b7d21ae-6e6b-4b67-ac02-e8430f49c60e-00-3pb4p0guxnq6a.sisko.replit.dev/)
+
   
