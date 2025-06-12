@@ -16,4 +16,5 @@ A full stack blog platform with authentication and CRUD functionality.
 - RESTful API structure
 
 ## 🌐 Live App
-- [Replit URL here](https://your-replit-url.repl.co)
+- [Replit URL here](https://replit.com/@Nancy79/my-blog-api)
+  
