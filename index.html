@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Blog Frontend</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        #output { border: 1px solid #ccc; padding: 10px; min-height: 100px; margin-top: 20px; }
+        button { padding: 10px 15px; margin-right: 10px; cursor: pointer; }
+        input { padding: 8px; margin-right: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Simple Blog Frontend</h1>
+
+    <h2>Register / Login</h2>
+    <input type="email" id="authEmail" placeholder="Email">
+    <input type="password" id="authPassword" placeholder="Password">
+    <button id="signupBtn">Sign Up</button>
+    <button id="loginBtn">Login</button>
+    <p>Current User: <span id="currentUserEmail">Not logged in</span></p>
+    <p>Token: <span id="currentToken">None</span></p>
+    <hr>
+
+    <h2>Create New Blog Post</h2>
+    <input type="text" id="blogTitle" placeholder="Blog Title">
+    <textarea id="blogContent" placeholder="Blog Content"></textarea>
+    <button id="createBlogBtn">Create Blog</button>
+    <hr>
+
+    <h2>All Blog Posts</h2>
+    <button id="fetchBlogsBtn">Fetch All Blogs</button>
+    <div id="blogsList">Loading blogs...</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
